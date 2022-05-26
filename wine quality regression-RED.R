@@ -41,7 +41,7 @@ mode(data2)
 
 sum(is.na(data))
 data2<-unique(data2)
-dim(data2)
+dim(data2) 
 
 #Transforming data using 'BoxCox' transformation to remove skewness
 data_process<-preProcess(data2[,1:11],method ="BoxCox")
