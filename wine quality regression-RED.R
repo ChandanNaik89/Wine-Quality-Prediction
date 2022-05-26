@@ -135,4 +135,4 @@ prob_test<-ifelse(predict(logik,newdata = test_new,type='response')>0.5,"Good wi
 test_table<-table(Predicted=prob_test,Actual=test_new$category)
 test_table
 accuracy_test<-sum(diag(test_table))/length(test_new$category)
-accuracy_test
+accuracy_test 
