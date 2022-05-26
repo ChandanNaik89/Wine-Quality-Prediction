@@ -1,6 +1,6 @@
 #Renaming dataset
 
-data<-winequality_red
+data<-winequality_red 
 
 #Data Type
 
