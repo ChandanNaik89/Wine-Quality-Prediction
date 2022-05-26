@@ -4,7 +4,7 @@ data<-winequality_red
 
 #Data Type
 
-mode(data)
+mode(data) 
 
 #Structure of dataset
 
